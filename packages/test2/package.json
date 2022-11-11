@@ -1,0 +1,21 @@
+{
+  "name": "@xiezijie/test2",
+  "version": "4.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "files": [
+    "./dist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xiezijie/test1": "workspace:^4.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
